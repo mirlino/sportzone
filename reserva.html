@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservar cancha · SportZone Complejo Multideportivo</title>
+    <meta
+      name="description"
+      content="Solicita tu turno en SportZone Santo Domingo Este: fútbol 5, fútbol 7, baloncesto, voleibol o golf."
+    />
+    <meta property="og:title" content="Reservar cancha · SportZone" />
+    <meta
+      property="og:description"
+      content="Elige tu deporte y planifica tu próxima visita en SportZone."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Ir al formulario de reserva</a>
+
+    <header class="encabezado-sitio">
+      <div class="contenedor encabezado-contenido">
+        <a href="index.html" class="logo-zona">
+          <img
+            src="/assets/sportzone-logo.svg"
+            alt="SportZone, complejo multideportivo"
+            class="logo-imagen"
+          />
+        </a>
+
+        <nav class="nav-principal" aria-label="Navegación principal">
+          <a href="index.html" class="nav-enlace">Inicio</a>
+          <a href="reserva.html" class="nav-enlace activo" aria-current="page">Reservar cancha</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido" class="contenido-principal">
+      <div class="contenedor">
+        <section aria-labelledby="titulo-reserva">
+          <div class="reserva-cabecera">
+            <h1 id="titulo-reserva">Solicita tu turno</h1>
+            <p class="reserva-subtitulo">Elige tu deporte y planifica tu próxima visita.</p>
+          </div>
+
+          <form id="formulario-reserva" novalidate>
+            <fieldset class="grupo-campos">
+              <legend class="grupo-titulo">Datos de contacto</legend>
+              <div class="campos-cuadricula">
+                <div class="campo-control">
+                  <label for="nombre">
+                    Nombre del responsable <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    id="nombre"
+                    name="nombre"
+                    placeholder="Ej. Luis Ramírez"
+                    autocomplete="name"
+                    required
+                  />
+                  <span class="campo-error" id="error-nombre" role="alert"></span>
+                </div>
+
+                <div class="campo-control">
+                  <label for="telefono">
+                    Teléfono de contacto <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <input
+                    type="tel"
+                    id="telefono"
+                    name="telefono"
+                    placeholder="Ej. 809-555-0148"
+                    autocomplete="tel"
+                    required
+                  />
+                  <span class="campo-error" id="error-telefono" role="alert"></span>
+                </div>
+              </div>
+            </fieldset>
+
+            <fieldset class="grupo-campos">
+              <legend class="grupo-titulo">Datos del turno</legend>
+              <div class="campos-cuadricula">
+                <div class="campo-control">
+                  <label for="disciplina">
+                    Disciplina deportiva <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <select id="disciplina" name="disciplina" required>
+                    <option value="">Selecciona una disciplina</option>
+                    <option value="futbol-sintetico">Fútbol Sintético</option>
+                    <option value="baloncesto">Baloncesto</option>
+                    <option value="voleibol">Voleibol</option>
+                    <option value="golf">Golf</option>
+                  </select>
+                  <span class="campo-error" id="error-disciplina" role="alert"></span>
+                </div>
+
+                <div class="campo-control">
+                  <label for="cancha">
+                    Cancha o área <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <select id="cancha" name="cancha" required>
+                    <option value="">Selecciona una opción</option>
+                    <option value="futbol-5">Fútbol 5 — RD$2,000/h</option>
+                    <option value="futbol-7">Fútbol 7 — RD$3,200/h</option>
+                    <option value="baloncesto">Baloncesto — RD$1,800/h</option>
+                    <option value="voleibol">Voleibol — RD$1,500/h</option>
+                    <option value="golf">Golf — RD$1,200/h</option>
+                  </select>
+                  <span class="campo-error" id="error-cancha" role="alert"></span>
+                </div>
+
+                <div class="campo-control">
+                  <label for="fecha">
+                    Fecha de la reserva <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <input type="date" id="fecha" name="fecha" required />
+                  <span class="campo-error" id="error-fecha" role="alert"></span>
+                </div>
+
+                <div class="campo-control">
+                  <label for="hora">
+                    Hora de inicio <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <input type="time" id="hora" name="hora" min="07:00" max="22:00" required />
+                  <span class="campo-ayuda">Inicio disponible de 7:00 a. m. a 10:00 p. m.</span>
+                  <span class="campo-error" id="error-hora" role="alert"></span>
+                </div>
+
+                <div class="campo-control">
+                  <label for="horas">
+                    Cantidad de horas <span class="marca-obligatorio" aria-hidden="true">*</span>
+                  </label>
+                  <input type="number" id="horas" name="horas" min="1" max="4" value="1" required />
+                  <span class="campo-ayuda">De 1 a 4 horas por solicitud.</span>
+                  <span class="campo-error" id="error-horas" role="alert"></span>
+                </div>
+              </div>
+            </fieldset>
+
+            <p class="formulario-nota-obligatorios">Todos los campos son obligatorios.</p>
+
+            <button type="submit" class="btn-reserva btn-reserva-ancho">
+              Solicitar reserva de cancha
+            </button>
+
+            <p class="formulario-horario">Horario del complejo: 7:00 a. m. a 11:00 p. m.</p>
+
+            <div id="estado-reserva" class="estado-reserva" aria-live="polite" hidden></div>
+          </form>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pie-sitio">
+      <div class="contenedor pie-contenido">
+        <span class="pie-marca">SportZone</span>
+        <div class="pie-datos">
+          <span class="pie-dato">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Av. Charles de Gaulle, Santo Domingo Este
+          </span>
+          <span class="pie-dato cifra-tabular">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            Lunes a domingo, 7:00 a. m. a 11:00 p. m.
+          </span>
+          <span class="pie-dato">© 2026 SportZone</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

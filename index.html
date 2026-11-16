@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SportZone · Complejo Multideportivo en Santo Domingo Este</title>
+    <meta
+      name="description"
+      content="Complejo multideportivo SportZone en Santo Domingo Este: fútbol sintético, baloncesto, voleibol y golf. Solicita tu turno en línea."
+    />
+    <meta property="og:title" content="SportZone · Complejo Multideportivo" />
+    <meta
+      property="og:description"
+      content="Cuatro disciplinas y más de 3 años de experiencia en Santo Domingo Este. Reserva tu cancha."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./script.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Ir al contenido principal</a>
+
+    <header class="encabezado-sitio">
+      <div class="contenedor encabezado-contenido">
+        <a href="index.html" class="logo-zona">
+          <img
+            src="/assets/sportzone-logo.svg"
+            alt="SportZone, complejo multideportivo"
+            class="logo-imagen"
+          />
+        </a>
+
+        <nav class="nav-principal" aria-label="Navegación principal">
+          <a href="index.html" class="nav-enlace activo" aria-current="page">Inicio</a>
+          <a href="reserva.html" class="nav-enlace">Reservar cancha</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido" class="contenido-principal">
+      <!-- Bloque principal (Hero) a ancho completo del viewport -->
+      <section class="bloque-seccion hero-seccion" aria-labelledby="titulo-principal">
+        <div class="hero-grid">
+          <div class="hero-texto">
+            <div class="hero-encabezado">
+              <h1 id="titulo-principal">Tu próximo partido empieza aquí</h1>
+              <p class="hero-subtitulo">
+                Cuatro disciplinas. Un solo lugar en Santo Domingo Este.
+              </p>
+            </div>
+            <div class="hero-cta-wrap">
+              <a href="reserva.html" class="btn-reserva">Reservar cancha</a>
+            </div>
+          </div>
+
+          <div class="hero-media">
+            <img
+              src="/src/assets/images/hero-sportzone.jpg"
+              alt="Canchas de fútbol sintético del complejo SportZone iluminadas al anochecer con torres LED"
+            />
+            <div class="media-respaldo" aria-hidden="true">
+              <strong>SportZone · Santo Domingo Este</strong>
+              <span>Instalaciones multideportivas con iluminación LED</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="contenedor">
+        <!-- Catálogo de disciplinas -->
+        <section class="bloque-seccion" aria-labelledby="titulo-disciplinas">
+          <div class="encabezado-bloque">
+            <h2 id="titulo-disciplinas">Elige tu deporte</h2>
+          </div>
+
+          <div class="catalogo-cuadricula">
+            <article class="tarjeta-deporte">
+              <div class="tarjeta-media">
+                <img
+                  src="/src/assets/images/futbol-sintetico.jpg"
+                  alt="Balón de fútbol sobre grama sintética verde frente a portería"
+                />
+                <div class="media-respaldo" aria-hidden="true">
+                  <strong>Fútbol sintético</strong>
+                </div>
+              </div>
+              <div class="tarjeta-cuerpo">
+                <h3>Fútbol sintético</h3>
+                <p class="tarjeta-tarifa">Fútbol 5 · RD$2,000/h</p>
+                <p class="tarjeta-tarifa">Fútbol 7 · RD$3,200/h</p>
+              </div>
+            </article>
+
+            <article class="tarjeta-deporte">
+              <div class="tarjeta-media">
+                <img
+                  src="/src/assets/images/baloncesto.jpg"
+                  alt="Balón de baloncesto sobre cancha reglamentaria con aro y tablero de cristal"
+                />
+                <div class="media-respaldo" aria-hidden="true">
+                  <strong>Baloncesto</strong>
+                </div>
+              </div>
+              <div class="tarjeta-cuerpo">
+                <h3>Baloncesto</h3>
+                <p class="tarjeta-tarifa">RD$1,800/h</p>
+              </div>
+            </article>
+
+            <article class="tarjeta-deporte">
+              <div class="tarjeta-media">
+                <img
+                  src="/src/assets/images/voleibol.jpg"
+                  alt="Balón de voleibol azul y amarillo junto a la malla en cancha"
+                />
+                <div class="media-respaldo" aria-hidden="true">
+                  <strong>Voleibol</strong>
+                </div>
+              </div>
+              <div class="tarjeta-cuerpo">
+                <h3>Voleibol</h3>
+                <p class="tarjeta-tarifa">RD$1,500/h</p>
+              </div>
+            </article>
+
+            <article class="tarjeta-deporte">
+              <div class="tarjeta-media">
+                <img
+                  src="/src/assets/images/golf.jpg"
+                  alt="Pelota blanca de golf sobre tee en césped verde del área de práctica"
+                />
+                <div class="media-respaldo" aria-hidden="true">
+                  <strong>Golf</strong>
+                </div>
+              </div>
+              <div class="tarjeta-cuerpo">
+                <h3>Golf</h3>
+                <p class="tarjeta-tarifa">RD$1,200/h</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- Amenidades del complejo -->
+        <section class="bloque-seccion" aria-labelledby="titulo-amenidades">
+          <div class="encabezado-bloque">
+            <h2 id="titulo-amenidades">Todo para disfrutar tu turno</h2>
+          </div>
+
+          <ul class="lista-amenidades">
+            <li class="amenidad-item">
+              <span class="amenidad-icono" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="4" />
+                  <path d="M12 2v2" />
+                  <path d="M12 20v2" />
+                  <path d="m4.93 4.93 1.41 1.41" />
+                  <path d="m17.66 17.66 1.41 1.41" />
+                  <path d="M2 12h2" />
+                  <path d="M20 12h2" />
+                  <path d="m6.34 17.66-1.41 1.41" />
+                  <path d="m19.07 4.93-1.41 1.41" />
+                </svg>
+              </span>
+              <span class="amenidad-texto">Iluminación LED</span>
+            </li>
+
+            <li class="amenidad-item">
+              <span class="amenidad-icono" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
+                  <circle cx="7" cy="17" r="2" />
+                  <path d="M9 17h6" />
+                  <circle cx="17" cy="17" r="2" />
+                </svg>
+              </span>
+              <span class="amenidad-texto">Parqueo vigilado</span>
+            </li>
+
+            <li class="amenidad-item">
+              <span class="amenidad-icono" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+                  <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+                  <line x1="6" x2="6" y1="2" y2="4" />
+                  <line x1="10" x2="10" y1="2" y2="4" />
+                  <line x1="14" x2="14" y1="2" y2="4" />
+                </svg>
+              </span>
+              <span class="amenidad-texto">Cafetería e hidratación</span>
+            </li>
+
+            <li class="amenidad-item">
+              <span class="amenidad-icono" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="m4 4 2.5 2.5" />
+                  <path d="M13.5 6.5a4.95 4.95 0 0 0-7 7" />
+                  <path d="M15 5 5 15" />
+                  <path d="M14 17v.01" />
+                  <path d="M10 16v.01" />
+                  <path d="M13 13v.01" />
+                  <path d="M16 10v.01" />
+                  <path d="M11 20v.01" />
+                  <path d="M17 14v.01" />
+                  <path d="M20 11v.01" />
+                </svg>
+              </span>
+              <span class="amenidad-texto">Vestidores y duchas</span>
+            </li>
+
+            <li class="amenidad-item">
+              <span class="amenidad-icono" aria-hidden="true">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10" />
+                  <path d="m12 7 4 3-1.5 5h-5L8 10z" />
+                  <path d="M12 2v5" />
+                  <path d="m2 9 6 1" />
+                  <path d="m22 9-6 1" />
+                  <path d="m6 20 3.5-5" />
+                  <path d="m18 20-3.5-5" />
+                </svg>
+              </span>
+              <span class="amenidad-texto">Préstamo o alquiler de equipos</span>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="pie-sitio">
+      <div class="contenedor pie-contenido">
+        <span class="pie-marca">SportZone</span>
+        <div class="pie-datos">
+          <span class="pie-dato">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z" />
+              <circle cx="12" cy="10" r="3" />
+            </svg>
+            Av. Charles de Gaulle, Santo Domingo Este
+          </span>
+          <span class="pie-dato cifra-tabular">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            Lunes a domingo, 7:00 a. m. a 11:00 p. m.
+          </span>
+          <span class="pie-dato">© 2026 SportZone</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
