@@ -2,7 +2,3 @@ Informe de Fase 1: Maquetación Web – Proyecto SportZone
 
 
 
-3. Tecnologías y estándares aplicados: Para cumplir con los requerimientos técnicos de la fase, implementamos lo siguiente:
-•	HTML5 Semántico: Uso riguroso de etiquetas contenedoras e informativas para optimizar la accesibilidad y la limpieza del código (<header>, <nav>, <main>, <footer>, junto con listas, enlaces e imágenes).
-•	Hoja de Estilos Externa (styles.css): Un archivo CSS centralizado y enlazado a ambas páginas, estructurado mediante selectores de etiqueta, de clase y de ID, manteniendo una paleta de colores coherente y uniforme en todo el sitio.
-•	Control de Versiones (Git y GitHub): La gestión del código fuente se realizó de forma colaborativa a través del repositorio grupal, trabajando directamente sobre la rama asignada fase-1-maquetacion.
