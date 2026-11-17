@@ -1,0 +1,12 @@
+Informe de Fase 1: Maquetación Web – Proyecto SportZone
+
+1. Sobre el proyecto: SportZone es una plataforma web enfocada en el mundo del deporte y el fitness. En esta primera etapa nos centramos en construir el esqueleto visual y la interfaz de usuario de la aplicación (maquetación estática), dejando lista la base para que los usuarios puedan navegar, explorar los servicios deportivos y probar el sistema de registro mediante un formulario.
+
+2. Estructura y páginas del sitio: Para organizar el desarrollo y la navegación, el sitio se divide en dos páginas principales interconectadas:
+•	Página de Inicio (index.html): Funciona como la portada principal de SportZone. Aquí presentamos la propuesta de valor, los mensajes de bienvenida y los accesos directos utilizando HTML5 semántico (<header>, <nav>, <main>, <footer>). Además, integramos los elementos clave solicitados: una imagen representativa del servicio, una lista informativa y un enlace directo hacia la sección de registro.
+•	Página de Formulario (formulario.html): Está pensada exclusivamente para la recolección de datos y la gestión de reservas deportivas. Incluye campos de entrada (como nombres, correos electrónicos, selectores y botón de envío) estructurados con etiquetas semánticas, y cuenta con un menú de navegación que permite volver al inicio de forma fluida.
+
+3. Tecnologías y estándares aplicados: Para cumplir con los requerimientos técnicos de la fase, implementamos lo siguiente:
+•	HTML5 Semántico: Uso riguroso de etiquetas contenedoras e informativas para optimizar la accesibilidad y la limpieza del código (<header>, <nav>, <main>, <footer>, junto con listas, enlaces e imágenes).
+•	Hoja de Estilos Externa (styles.css): Un archivo CSS centralizado y enlazado a ambas páginas, estructurado mediante selectores de etiqueta, de clase y de ID, manteniendo una paleta de colores coherente y uniforme en todo el sitio.
+•	Control de Versiones (Git y GitHub): La gestión del código fuente se realizó de forma colaborativa a través del repositorio grupal, trabajando directamente sobre la rama asignada fase-1-maquetacion.
