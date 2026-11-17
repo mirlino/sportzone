@@ -1,7 +1,6 @@
 Informe de Fase 1: Maquetación Web – Proyecto SportZone
 
 
-2. Estructura y páginas del sitio: Para organizar el desarrollo y la navegación, el sitio se divide en dos páginas principales interconectadas:
 
 3. Tecnologías y estándares aplicados: Para cumplir con los requerimientos técnicos de la fase, implementamos lo siguiente:
 •	HTML5 Semántico: Uso riguroso de etiquetas contenedoras e informativas para optimizar la accesibilidad y la limpieza del código (<header>, <nav>, <main>, <footer>, junto con listas, enlaces e imágenes).
