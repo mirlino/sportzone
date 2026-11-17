@@ -2,6 +2,8 @@
 
 Aplicación web multipágina para **SportZone**, complejo multideportivo ubicado en Santo Domingo Este. Permite consultar el catálogo de disciplinas deportivas, sus tarifas por hora, las amenidades del complejo y realizar solicitudes de reserva de cancha en línea.
 
+**Demo en vivo (Vercel):** [SportZone · Complejo Multideportivo en Santo Domingo Este](https://sportzones.vercel.app/index.html)
+
 ---
 
 ## Características principales
