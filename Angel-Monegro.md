@@ -1,8 +1,8 @@
 ### Informe de Fase 1: Maquetación Web – Proyecto SportZone
 
 #### 1. Sobre el proyecto
+
 SportZone es una plataforma web integral enfocada en el mundo del deporte. En esta primera etapa de desarrollo, nos centramos en construir la arquitectura visual, el esqueleto estructural y la interfaz de usuario de la aplicación (maquetación estática). Esto deja establecida una base sólida, navegable y estructurada para que los usuarios puedan explorar los servicios deportivos, comprender la propuesta de valor y interactuar con el sistema inicial de reservas mediante un flujo de formularios optimizado.
----
 
 #### 2. Estructura y páginas del sitio (Desglose de funcionalidades y flujo)
 Para organizar de manera limpia la navegación y la experiencia de usuario, el sitio se divide en dos páginas principales interconectadas que responden a una lógica de interacción específica:
